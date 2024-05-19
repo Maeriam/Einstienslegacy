@@ -271,7 +271,7 @@ function Career() {
       <p className='career-text'>
         Following the discovery of the recession of the galaxies by Edwin Hubble in 1929, Einstein abandoned his static model of the universe, and proposed two dynamic models of the cosmos, the Friedmann–Einstein universe of 1931 and the
         <span tabIndex="0" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-content="The Einstein–de Sitter universe is a model of the universe proposed by Albert Einstein and Willem de Sitter in 1932.On first learning of Edwin Hubble's discovery of a linear relation between the redshift of the galaxies and their distance,Einstein set the cosmological constant to zero in the Friedmann equations, resulting in a model of the expanding universe known as the Friedmann–Einstein universe. ">
-          <span id="popover">Einstein–de Sitter universe</span>
+          <span id="popover">Einstein-de Sitter universe</span>
         </span>
         of 1932.In each of these models, Einstein discarded the cosmological constant, claiming that it was "in any case theoretically unsatisfactory".
       </p>
@@ -305,9 +305,6 @@ function Career() {
       <p className='career-text'>
         In 1935, Einstein collaborated with Nathan Rosen to produce a model of a wormhole, often called Einstein–Rosen bridges.His motivation was to model elementary particles with charge as a solution of gravitational field equations, in line with the program outlined in the paper "Do Gravitational Fields play an Important Role in the Constitution of the Elementary Particles?". These solutions cut and pasted Schwarzschild black holes to make a bridge between two patches. Because these solutions included spacetime curvature without the presence of a physical body, Einstein and Rosen suggested that they could provide the beginnings of a theory that avoided the notion of point particles. However, it was later found that Einstein–Rosen bridges are not stable
       </p>
-
-
-
 
 
       <h6>Einstein–Cartan theory</h6>
@@ -352,7 +349,7 @@ function Career() {
         In 1907, Einstein proposed a model of matter where each atom in a lattice structure is an independent harmonic oscillator. In the Einstein model, each atom oscillates independently—a series of equally spaced quantized states for each oscillator. Einstein was aware that getting the frequency of the actual oscillations would be difficult, but he nevertheless proposed this theory because it was a particularly clear demonstration that quantum mechanics could solve the specific heat problem in classical mechanics. Peter Debye refined this model
       </p>
 
-      <h6>Bose–Einstein statistics</h6>
+      <h6>Bose-Einstein statistics</h6>
       <p className='career-text'>
         In 1924, Einstein received a description of a statistical model from Indian physicist Satyendra Nath Bose, based on a counting method that assumed that light could be understood as a gas of indistinguishable particles. Einstein noted that Bose's statistics applied to some atoms as well as to the proposed light particles, and submitted his translation of Bose's paper to the Zeitschrift für Physik. Einstein also published his own articles describing the model and its implications, among them the Bose–Einstein condensate phenomenon that some particulates should appear at very low temperatures.
       </p>
@@ -360,7 +357,7 @@ function Career() {
         It was not until 1995 that the first such condensate was produced experimentally by Eric Allin Cornell and Carl Wieman using ultra-cooling equipment built at the NIST–JILA laboratory at the University of Colorado at Boulder.Bose–Einstein statistics are now used to describe the behaviors of any assembly of bosons. Einstein's sketches for this project may be seen in the Einstein Archive in the library of the Leiden University
       </p>
 
-      <h6>Wave–particle duality</h6>
+      <h6>Wave-particle duality</h6>
       <p className='career-text'>
         Although the patent office promoted Einstein to Technical Examiner Second Class in 1906, he had not given up on academia. In 1908, he became a Privatdozent at the University of Bern. In "Über die Entwicklung unserer Anschauungen über das Wesen und die Konstitution der Strahlung" ("The Development of our Views on the Composition and Essence of Radiation"), on the quantization of light, and in an earlier 1909 paper, Einstein showed that Max Planck's energy quanta must have well-defined momenta and act in some respects as independent, point-like particles.
       </p>
@@ -406,14 +403,14 @@ function Career() {
 
       <h6>Bohr versus Einstein</h6>
       <p className='career-text'>
-        The Bohr–Einstein debates were a series of public disputes about quantum mechanics between Einstein and Niels Bohr, who were two of its founders. Their debates are remembered because of their importance to the philosophy of science.Their debates would influence later interpretations of quantum mechanics.
+        The Bohr-Einstein debates were a series of public disputes about quantum mechanics between Einstein and Niels Bohr, who were two of its founders. Their debates are remembered because of their importance to the philosophy of science.Their debates would influence later interpretations of quantum mechanics.
       </p>
 
       <div className='col-xl-12 col-lg-12'>
         <img src={career_img12} className="career_img_2" alt="..." />
       </div>
 
-      <h6>Einstein–Podolsky–Rosen paradox</h6>
+      <h6>Einstein-Podolsky-Rosen paradox</h6>
       <p className='career-text'>Einstein never fully accepted quantum mechanics. While he recognized that it made correct predictions, he believed a more fundamental description of nature must be possible. Over the years he presented multiple arguments to this effect, but the one he preferred most dated to a debate with Bohr in 1930. Einstein suggested a thought experiment in which two objects are allowed to interact and then moved apart a great distance from each other.</p>
       <p className='career-text'>The quantum-mechanical description of the two objects is a mathematical entity known as a wavefunction. If the wavefunction that describes the two objects before their interaction is given, then the Schrödinger equation provides the wavefunction that describes them after their interaction. But because of what would later be called quantum entanglement, measuring one object would lead to an instantaneous change of the wavefunction describing the other object, no matter how far away it is.</p>
       <p className='career-text'>Moreover, the choice of which measurement to perform upon the first object would affect what wavefunction could result for the second object. Einstein reasoned that no influence could propagate from the first object to the second instantaneously fast. Indeed, he argued, physics depends on being able to tell one thing apart from another, and such instantaneous influences would call that into question. Because the true "physical condition" of the second object could not be immediately altered by an action done to the first, Einstein concluded, the wavefunction could not be that true physical condition, only an incomplete description of it.</p>

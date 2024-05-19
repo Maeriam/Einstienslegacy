@@ -13,18 +13,15 @@
 
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 #popover {
     color: rgb(27, 131, 147);
     text-align: center;
     margin-left: 0.5%;
     margin-right: 0.5%;
     text-decoration: underline;
+}
 
-=======
-=======
->>>>>>> origin
 .nav-link {
     color: black;
 }
@@ -46,8 +43,5 @@
 .site-text2 {
     font-weight: 400;
     color: white;
-<<<<<<< HEAD
->>>>>>> e223e421a25af04c0c2dcab97b879753c299bf01
-=======
->>>>>>> origin
+
 }

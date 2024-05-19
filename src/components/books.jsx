@@ -25,7 +25,7 @@ function book() {
                     <div className="card">
                         <img src={book1} className="card-img-top" alt="book1" />
                         <div className="card-body">
-                            <a href="https://www.amazon.com/Albert-Einstein-Biography-Sellers-Childrens/dp/1541912381">
+                            <a href="https://www.amazon.com/Albert-Einstein-Biography-Sellers-Childrens/dp/1541912381" target="_blank" rel="noreferrer">
                                 <h3 className="card-title">
                                     Einstein: The Genius Who Failed School
                                 </h3>

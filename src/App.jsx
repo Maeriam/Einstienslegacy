@@ -18,46 +18,54 @@ function App() {
 
   return (
     <div>
-      <section className="sticky-top">
-      <header className="site-name">
-        <a className="navbar-brand  " aria-current="page" href="/">
-          <img src={logo} alt="Bootstrap" width="30" height="23" />
-          <span className="site-text1">EINSTEIN'S </span> <span className="site-text2">LEGACY</span>
-        </a>
-      </header>
-      <nav className="navbar sticky-top   navbar-expand-lg">
-        <div className="container-fluid ">
-          <button className="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-            <ul className="navbar-nav ml-auto mb-2 mb-lg-0">
-              <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="#life" >Life</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="#education" >Education</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="#career">Career</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link " aria-current="page" href="#achievements" >
-                  Achievement
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link " aria-current="page" href="#nobelprize" >
-                  Nobel prize
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="#books">Books</a>
-              </li>
-            </ul>
+       <section className="sticky-top">
+        <header className="site-name">
+          <a className="navbar-brand  " aria-current="page" href="/">
+            <img src={logo} alt="Bootstrap" width="30" height="23" />
+            <span className="site-text1">EINSTEIN'S </span> <span className="site-text2">LEGACY</span>
+          </a>
+        </header>
+
+        <nav className="navbar navbar-expand-lg">
+          <div className="container-fluid">
+            <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+              <span className="navbar-toggler-icon"></span>
+            </button>
+            <div className="offcanvas offcanvas-end" tabIndex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+              <div className="offcanvas-header">
+                <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div className="offcanvas-body">
+                <ul className="navbar-nav justify-content-center flex-grow-1 pe-3">
+                  <li className="nav-item">
+                    <a className="nav-link" aria-current="page" href="#life" >Life</a>
+                  </li>
+                  <li className="nav-item">
+                    <a className="nav-link" aria-current="page" href="#education" >Education</a>
+                  </li>
+                  <li className="nav-item">
+                    <a className="nav-link" aria-current="page" href="#career">Career</a>
+                  </li>
+                  <li className="nav-item">
+                    <a className="nav-link " aria-current="page" href="#achievements" >
+                      Achievement
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a className="nav-link " aria-current="page" href="#nobelprize" >
+                      Nobel prize
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a className="nav-link" aria-current="page" href="#books">Books</a>
+                  </li>
+
+                </ul>
+              </div>
+            </div>
           </div>
-        </div>
-      </nav>
+        </nav>
+
       </section>
 
       {/* Carousel component */}
@@ -95,7 +103,7 @@ function App() {
       </div>
       <Footer />
     </div>
-  );
+  )
 }
 
 export default App;
